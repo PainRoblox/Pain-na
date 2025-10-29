@@ -91,7 +91,7 @@ Tab2:AddButton({
     Description = "",
     Default = false,
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/trauredzhubv3.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/traurobloxdeptrai/traukhoaito/refs/heads/main/trauredzupv4.lua"))()
     end
 })
 
