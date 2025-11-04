@@ -1,7 +1,7 @@
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/Library-ui/refs/heads/main/Redzhubui"))()
 
 local Window = redzlib:MakeWindow({
-  Title = "Gehu Roblox",
+  Title = "Tổng hợp",
   SubTitle = "blox fruit",
   SaveFolder = "Blox fruit"
 })
@@ -56,12 +56,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs
 })
 
 Tab2:AddButton({
-    Name = "Andeptrai hub",
+    Name = "Hiru redz hub",
     Description = "",
     Default = false,
     Callback = function()
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
+getgenv().Settings = {
+    JoinTeam = true,
+    Team = "Marines"-- Pirates or Marines
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KiddoHiru/BloxFruits/main/Source.lua"))()
     end
 })
 
@@ -74,6 +77,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy2511-coder/Mons
     end
 })
 
+Tab2:AddButton({
+    Name = "wazure hub",
+    Description = "",
+    Default = false,
+    Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+
+    end
+})
 
 Tab2:AddButton({
     Name = "Blues hub",
@@ -115,6 +127,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Tienvn123tkvn/Test/ma
 
     end
 })
+Tab2:AddButton({
+    Name = "Quantum hub",
+    Description = "",
+    Default = false,
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/flazhy/QuantumOnyx/refs/heads/main/QuantumOnyx.lua"))()
+    end
+})
+
+
+
 
 
 local Tab3 = Window:MakeTab({"script Bay", "apple"})
